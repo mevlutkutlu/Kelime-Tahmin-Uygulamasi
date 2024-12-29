@@ -25,6 +25,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           sonar-scanner \
-            -Dsonar.projectKey=mevlutkutlu_Ses-Tahmin-Uygulamasi\
-            -Dsonar.organization=mevlutkutlu\
+            -Dsonar.projectKey=mevlutkutlu_Ses-Tahmin-Uygulamasi \
+            -Dsonar.organization=mevlutkutlu \
             -Dsonar.host.url=https://sonarcloud.io
