@@ -26,5 +26,5 @@ jobs:
         run: |
           sonar-scanner \
             -Dsonar.projectKey=mevlutkutlu_Ses-Tahmin-Uygulamasi\
-            -Dsonar.organization=YOUR_ORGANIZATION \
+            -Dsonar.organization=mevlutkutlu\
             -Dsonar.host.url=https://sonarcloud.io
